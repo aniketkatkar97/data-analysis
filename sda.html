@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sda.css" />
+    <title>Students Data Analysis</title>
+  </head>
+  <body>
+    <div id="main-frame">
+      <div id="heading-section">
+        <h1>Student Data Search by Age</h1>
+        <p id="notice">Here you can get the list of students by age criteria</p>
+        <p>Please enter the minimum age limit that the students should have</p>
+      </div>
+      <div id="content-section">
+        <input type="number" id="age-input" placeholder="Enter minimum age" />
+        <button onclick="getStudents()">Submit</button>
+      </div>
+      <table class="student-data-table">
+        <thead>
+          <tr id="student-data-table-heading">
+            <th class="sdt-heading-element">Sr.No.</th>
+            <th class="sdt-heading-element">First Name</th>
+            <th class="sdt-heading-element">Last Name</th>
+            <th class="sdt-heading-element">Age</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <script type="text/javascript" src="student-data-analysis.js"></script>
+  </body>
+</html>

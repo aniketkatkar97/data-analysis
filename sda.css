@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  margin: auto;
+  display: table;
+}
+body {
+  height: 100%;
+  display: flex;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(255, 196, 173);
+  align-items: center;
+}
+#main-frame {
+  height: 100%;
+  background-color: lightgrey;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 2px solid blueviolet;
+}
+#heading-section {
+  color: blueviolet;
+  margin: auto;
+  align-items: center;
+}
+#content-section {
+  align-items: center;
+  width: 400px;
+}
+#notice {
+  width: 350px;
+  align-items: center;
+  margin: auto;
+  color: black;
+  border: 1px dotted red;
+  border-radius: 2px;
+  background-color: blueviolet;
+}
+table {
+  width: 100%;
+  display: table;
+  align-items: center;
+  margin: auto;
+  border: 2px solid rgb(16, 128, 128);
+  border-collapse: collapse;
+  background-color: rgb(206, 255, 255);
+}
+th {
+  height: 25px;
+  background-color: rgb(32, 204, 204);
+  border: 2px solid rgb(16, 128, 128);
+  border-collapse: collapse;
+}
+td {
+  text-align: left;
+  border: 2px solid rgb(16, 128, 128);
+  padding-left: 15px;
+}
+input {
+  width: 150px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  color: rgb(108, 30, 180);
+  border-color: rgb(248, 217, 176);
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+button {
+  color: red;
+  background-color: antiquewhite;
+  border: 2px solid green;
+  border-radius: 15px;
+}
+button:hover {
+  border: 2px solid red;
+}
